@@ -12,6 +12,9 @@ def hola_mundo():
 @app.route('/adios')
 def adios():
     return '¡Adiós! Gracias por visitar mi aplicación.'
+@app.route('/lol')
+def adios():
+    return '¡lol! Gracias por visitar mi aplicación.'
 
 
 # Verifica si este archivo es el programa principal que se está ejecutando
